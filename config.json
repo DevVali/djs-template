@@ -1,0 +1,6 @@
+{
+	"token": "your-token-goes-here",
+	"clientId": "your-bot-id-goes-here",
+	"dbUsername": "your-db-username-goes-here",
+	"dbPassword": "your-db-password-goes-here" 
+}

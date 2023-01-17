@@ -1,0 +1,26 @@
+{
+  "name": "your-bot-name-goes-here",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "deploy": "node deploy-commands.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@keyv/sqlite": "^3.6.4",
+    "discord.js": "^14.7.1",
+    "keyv": "^4.5.2",
+    "sequelize": "^6.28.0",
+    "sqlite3": "^5.1.4",
+    "undici": "^5.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0"
+  }
+}
