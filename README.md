@@ -28,7 +28,7 @@ After cloning the repository, you can install all required packages:
 npm i 
 ```
 
-> Tip: To install only packages from your choice, continue reading.
+> Tip: If you want to install only the packages of your choice, continue reading.
 
 ### Packages
 
@@ -36,7 +36,7 @@ All packages are installed by default, but you may not need some packages (e.g. 
 
 #### discord.js 
 
-A package to interact with the Discord API. Required if you want to make your bot running.
+A package to interact with the Discord API. Required to run the bot properly.
 
 ```
 npm i discord.js
