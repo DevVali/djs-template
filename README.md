@@ -47,13 +47,13 @@ npm i discord.js
 Simple key-value storage that allows you to work with databases.
 
 ```
-npm install keyv
+npm i keyv
 ```
 
 Additionally, install @keyv/sqlite (we used SQLite in this template):
 
 ```
-npm install @keyv/sqlite
+npm i @keyv/sqlite
 ```
 
 #### eslint
