@@ -32,7 +32,7 @@ npm i
 
 ### Packages
 
-By default, all the packages are installed, but maybe you don't need some packages (e.g. you aren't going to work with databases).
+All packages are installed by default, but you may not need some packages (e.g. you will not be working with databases).
 
 #### discord.js 
 
