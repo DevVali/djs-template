@@ -22,7 +22,7 @@ To install this repository properly, run this in your command-line interface:
 git clone https://github.com/DevVali/djs14-template.git
 ```
 
-After you've cloned the repositry, you can install all the required packages:
+After cloning the repository, you can install all required packages:
 
 ```
 npm i 
