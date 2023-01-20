@@ -139,4 +139,4 @@ node dbInit.sequelize.js
 
 ## Contributing 
 
-This project was made as a help for programmers learning discord.js on providing them some examples how discord.js code should look like. If you found that we are missing a resource, feel free to add one by yourself and open a PR. 💖 Please make sure to use recommended editor plugins if you decide so.
+This project was made as a help for programmers learning discord.js on providing them some examples how discord.js code should look like. If you found that we are missing a resource, feel free to add one by yourself and open a PR. 💖 If you decide to do so, don't forget to use the recommended editor plugins.
