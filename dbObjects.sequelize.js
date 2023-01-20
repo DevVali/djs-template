@@ -1,7 +1,6 @@
 const Sequelize = require('sequelize');
-const { dbUsername, dbPassword } = require('./config.json');
 
-const sequelize = new Sequelize('your-bot-name-goes-here', dbUsername, dbPassword, {
+const sequelize = new Sequelize({
     host: 'localhost',
     dialect: 'sqlite',
     logging: false,
