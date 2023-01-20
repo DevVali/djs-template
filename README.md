@@ -16,13 +16,13 @@
 
 ## Installation
 
-To install this repository properly, run this in your command-line interface:
+To install this repository properly, run this in your command-line interface.
 
 ```
 git clone https://github.com/DevVali/djs14-template.git
 ```
 
-After cloning the repository, you can install all required packages:
+After cloning the repository, you can install all required packages.
 
 ```
 npm i 
@@ -50,7 +50,7 @@ Simple key-value storage that allows you to work with databases.
 npm i keyv
 ```
 
-Additionally, install @keyv/sqlite (we used SQLite in this template):
+Additionally, install @keyv/sqlite (we used SQLite in this template).
 
 ```
 npm i @keyv/sqlite
@@ -104,3 +104,33 @@ npm i undici
 + [Reactions, Permissions, Webhooks and Storing data with Keyv](https://github.com/DevVali/djs14-template/blob/7357cc3dadfcca6e011d43f6cc04bd56ea40a20a/commands/uwu.js)
 + [Storing data with Sequelize](https://github.com/DevVali/djs14-template/blob/7357cc3dadfcca6e011d43f6cc04bd56ea40a20a/commands/show-preference.js)
 + [Using a REST API](https://github.com/DevVali/djs14-template/blob/7357cc3dadfcca6e011d43f6cc04bd56ea40a20a/commands/neko.js)
+
+### Components 
+
++ [Buttons](https://github.com/DevVali/djs14-template/blob/4826e4e4f8a36adc33cb5b085e5818639457dab7/components/button.js)
++ [Select menus and Storing data with Sequelize](https://github.com/DevVali/djs14-template/blob/4826e4e4f8a36adc33cb5b085e5818639457dab7/components/preference.js)
++ [Modals](https://github.com/DevVali/djs14-template/blob/4826e4e4f8a36adc33cb5b085e5818639457dab7/components/question-modal.js)
+
+## Starting the bot
+
+> Tip: Don't forget to edit the `config.json` file with your bot's configuration. 
+
+Before getting into the process of starting your discord.js bot, you will have to register your commands to Discord.
+
+```
+node deploy-commands.js
+```
+
+Refresh your Discord client and if you see any new commands of your bot, you're good to go!
+
+Let's start your bot.
+
+```
+node index.js
+```
+
+If you see "Ready!" after a few seconds, congratulations on starting your discord.js bot. 🎉 
+
+## Contributing 
+
+This project was made as a help for programmers learning discord.js on providing them some examples how discord.js code should look like. If you found that we are missing a resource, feel free to add one by yourself and open a PR. 💖 Please make sure to use recommended editor plugins if you decide so.
