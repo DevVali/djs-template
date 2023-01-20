@@ -9,10 +9,8 @@ const sequelize = new Sequelize({
 
 require('./models/Preferences.js')(sequelize, Sequelize.DataTypes);
 
-const force = process.argv.includes('--force') || process.argv.includes('-f');
-
 sequelize
-    .sync({ force })
+    .sync({ alter: true })
     .then(async () => {
         console.log('Database synced');
         sequelize.close();
