@@ -131,10 +131,10 @@ node index.js
 
 If you see "Ready!" after a few seconds, congratulations on starting your discord.js bot. 🎉 
 
-### Initializing database
+### Initializing database (sequelize)
 
 ```
-node dbInit.js
+node dbInit.sequelize.js
 ```
 
 ## Contributing 
