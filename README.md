@@ -121,7 +121,7 @@ Before getting into the process of starting your discord.js bot, you will have t
 node deploy-commands.js
 ```
 
-Refresh your Discord client and if you see any new commands of your bot, you're good to go!
+Refresh your Discord client and if you see your bot's commands, you're good to go!
 
 Let's start your bot.
 
@@ -130,6 +130,12 @@ node index.js
 ```
 
 If you see "Ready!" after a few seconds, congratulations on starting your discord.js bot. 🎉 
+
+### Initializing database
+
+```
+node dbInit.js
+```
 
 ## Contributing 
 
