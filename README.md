@@ -25,7 +25,7 @@ git clone https://github.com/DevVali/djs14-template.git
 After cloning the repository, you can install all required packages.
 
 ```
-npm i 
+npm i
 ```
 
 > Tip: If you want to install only the packages of your choice, continue reading.
