@@ -113,7 +113,7 @@ npm i undici
 
 ## Starting the bot
 
-> Tip: Don't forget to edit the `config.json` file with your bot's configuration. 
+> Tip: Don't forget to edit the `config.json` file with your [bot's configuration](https://discordjs.guide/preparations/setting-up-a-bot-application.html). 
 
 Before getting into the process of starting your discord.js bot, you will have to register your commands to Discord.
 
